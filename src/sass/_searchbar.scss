@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  #search-form {
+    display: flex;
+    justify-content: center;
+    & input {
+      width: 300px;
+      height: 30px;
+  
+    }
+  
+    & button {
+      width: auto;
+    }
+  }
