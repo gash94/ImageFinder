@@ -1,6 +1,7 @@
 import { fetchPic, lastPage } from './js/fetchapi-pixabay';
 import { renderCard } from './js/render-image';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Loading } from 'notiflix/build/notiflix-loading-aio';
 import { scrollLoad } from './js/scroll';
 import SimpleLightbox from 'simplelightbox';
 
@@ -23,6 +24,7 @@ const findPicture = () => {
 
   fetchPic(valueSearch, numPage, perPage)
     .then(image => {
+      Loading.circle();
       renderCard(image.hits);
 
       if (numPage !== 1) {
@@ -48,6 +50,7 @@ const findPicture = () => {
     .catch(error => console.error(error))
     .finally(() => {
       formSearch.value = '';
+      Loading.remove();
     });
 };
 
