@@ -49,7 +49,6 @@ const findPicture = () => {
     })
     .catch(error => console.error(error))
     .finally(() => {
-      formSearch.value = '';
       Loading.remove();
     });
 };
