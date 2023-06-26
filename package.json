@@ -1,21 +1,21 @@
 {
-  "name": "Serach-engine-img",
+  "name": "imagefinder",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/serach-engine-img",
+  "homepage": "https://gash94.github.io/imagefinder",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /serach-engine-img/"
+    "build": "parcel build src/*.html --public-url /imagefinder/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gash94/serach-engine-img.git"
+    "url": "git+https://github.com/gash94/imagefinder.git"
   },
   "keywords": [],
   "author": "Paweł Gash Gasz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gash94/serach-engine-img/issues"
+    "url": "https://github.com/gash94/imagefinder/issues"
   },
   "dependencies": {
     "axios": "^1.1.3",
