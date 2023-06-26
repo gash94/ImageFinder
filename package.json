@@ -1,21 +1,21 @@
 {
-  "name": "goit-js-hw-11",
+  "name": "Serach-engine-img",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/goit-js-hw-11",
+  "homepage": "https://goitacademy.github.io/serach-engine-img",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /serach-engine-img/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gash94/goit-js-hw-11.git"
+    "url": "git+https://github.com/gash94/serach-engine-img.git"
   },
   "keywords": [],
   "author": "Paweł Gash Gasz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gash94/goit-js-hw-11/issues"
+    "url": "https://github.com/gash94/serach-engine-img/issues"
   },
   "dependencies": {
     "axios": "^1.1.3",
